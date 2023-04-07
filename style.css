@@ -1,0 +1,51 @@
+@import url(https://fonts.googleapis.com/css2?family=Philosopher:wght@100;200;300;400;500;600;700&display=swap);
+
+body {
+  font-family: 'Philosopher', sans-serif;
+  background-color: rgb(158, 164, 178);
+}
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 210px;
+    height: 210px;
+    border: solid rgb(50, 77, 87) 1px;
+    box-shadow: 11px 11px 10px rgb(129, 134, 147),
+    -11px -11px 17px rgb(158, 164, 178);
+    border-radius: 20px;
+}
+.cards{
+    padding: 10px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px 45px;
+}
+.portrait {
+    height: 150px;
+    border-radius: 20px;
+}
+.information {
+    text-align: center;
+    font-weight: 400;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    color: rgb(50, 77, 87);
+    font-size: 17px;
+}
+.name {
+    margin: 8px 0 8px 0;
+    font-weight: 600;
+    font-size: 18px;
+    color: rgb(50, 77, 87);
+}
