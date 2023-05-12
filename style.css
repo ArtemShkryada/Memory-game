@@ -158,15 +158,16 @@
     animation: animatedchoosen 2s ease alternate infinite;
   }
   .music{
+    align-self: self-end;
     display: flex;
     align-items: start;
-    justify-content: space-around;
-    align-self: self-end;
+    justify-content: start;
     margin: -20px;
     padding: 30px;
     position: absolute;
-    width: 320px;
+    width: 300px;
     height: 120px;
+    background: #000;
     border-radius: 20px;
   }
   
